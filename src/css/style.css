@@ -1,0 +1,165 @@
+h1 span {
+  color: red; }
+
+header {
+  max-width: 1920px; }
+
+.header-top {
+  height: 1191px; }
+  .header-top-right {
+    width: 50%;
+    background-color: green; }
+  .header-top-left {
+    width: 50%;
+    background-color: red; }
+
+body {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%; }
+
+.featured {
+  overflow: hidden;
+  width: 100%; }
+
+.featured-wrapper {
+  width: 1920px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%; }
+
+.bottom {
+  max-width: 1460px;
+  margin: 0 auto; }
+
+.top__left {
+  -webkit-transform: translateX(-9%);
+  transform: translateX(-9%); }
+
+.top__right {
+  -webkit-transform: translateX(9%);
+  transform: translateX(9%); }
+
+.top__left, .top__right {
+  width: 959px;
+  /* size from xd*/
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  padding-right: 90px; }
+
+.top__left__logo, .top__right__logo {
+  width: 512px;
+  display: inline; }
+
+.top__left__photo1, .top__right__photo1 {
+  width: 814px;
+  -webkit-transform: translate(80px, 0);
+  transform: translate(80px, 0); }
+
+.top__left__textleft, .top__right__textleft {
+  position: absolute;
+  font-size: 39px;
+  width: 37px; }
+
+.right__phototext_wrapper,
+.left__phototext__wrapper {
+  position: relative; }
+
+.top__right__textleft, .top__left__textleft {
+  top: 0; }
+
+.top__left__textleft {
+  right: -150px; }
+
+/* <------------Shops-------------->*/
+.shops {
+  display: inline-block; }
+
+.shops__images {
+  display: inline-block;
+  width: 474px;
+  margin: 0 10px; }
+
+.shops__images img {
+  width: 100%; }
+
+.menuwrapper {
+  display: inline-block; }
+
+/* <------------Foooter-------------->*/
+footer {
+  padding-top: 75px;
+  text-align: center;
+  background: url("../img/common/footer_bg.png"); }
+
+.contact__details {
+  display: inline-block;
+  text-align: left;
+  font-style: 'Roboto';
+  width: 214px;
+  margin: 0 45px; }
+
+.button__google, .button__twitter {
+  width: 210px; }
+
+.button__google img, .button__twitter img {
+  width: 100%; }
+
+.footer__instagram .instagram__wrapper {
+  display: inline-block;
+  width: 50%;
+  margin-right: 100px; }
+
+.instagram-title:first-letter, .sitemap__title:first-letter {
+  color: red; }
+
+.footer__instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 693px;
+  margin: 0 auto; }
+
+.sitemap {
+  max-width: 1048px;
+  border-bottom: dotted #fff;
+  -webkit-transform: translate(50%);
+  transform: translate(50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sitemap .sitemap__title {
+  width: 226px;
+  text-align: left; }
+
+.sitemap .sitemap__sub {
+  color: #818181; }
+
+.footer_links {
+  text-align: left;
+  max-width: 1048px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+footer nav {
+  display: inline-block; }

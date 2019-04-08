@@ -1,0 +1,18 @@
+header {
+	max-width: 1920px;
+}
+.header {
+	&-top {
+		height: 1191px;
+	  	&-right{
+			width: 50%;
+			background-color: green;
+		}
+	  	&-left{
+			width: 50%;
+			background-color: red;
+		}
+	}
+
+}
+
